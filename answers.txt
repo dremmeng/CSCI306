@@ -1,0 +1,14 @@
+1) When opening the party class, selecting all the lines of code, then pressing CTRL-I, 
+Eclipse automatically properly indents the entire file according to commonly accepted stylistic
+guidelines. When clicking file>>revert, it appears the file reverts back to the state it was in before
+the file had been altered, at its most recent save point. This appears to be an effective way to revert accidental
+changes or deletions made to the file after the file had been saved. 
+
+2) When adding a breakpoint to the first line in showPeople, the program never enters the loop within the showPeople
+function. When removing the first-line breakpoint and allowing the loop to continue with the print statement executing,
+the object@memory_address is displayed by the "System.out.println(person)" line. This is because friends doesn't have a to.String()
+method, so the memory location is being shown as opposed to the data stored in friends, which is the name of the friend as a string.
+
+3) There is no .toString function in the friend class. There is no .toString() method being called in neither the Friend 
+nor Party class.
+
